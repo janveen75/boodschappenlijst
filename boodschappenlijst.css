@@ -1,0 +1,61 @@
+body{
+    font-family: sans-serif;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+th{
+    text-align: left;
+    
+}
+td{
+    text-align: right;
+}
+
+th,td{
+    border: 1px solid #888;
+    padding: 10px;
+}
+
+.textLeft{
+    text-align: left;
+}
+menu,
+ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  width: 400px;
+  background-color: lightgrey;
+ 
+}
+
+li {
+  flex-grow: 1;
+  color: lightskyblue;
+}
+
+button {
+  width: 100%;
+}
+
+.highlight {
+    color: white;
+    background-color: darkgreen;
+}
+
+.error {
+    background-color: Red;
+    color: white;
+    width: 600px;
+}
+
+.error_table {
+   
+    color: red;
+}
+
+
+
